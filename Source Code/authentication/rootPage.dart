@@ -1,7 +1,4 @@
 
-import 'package:diabetica/database/db.dart';
-import 'package:diabetica/database/db_provider.dart';
-import 'package:diabetica/database/db_root.dart';
 import 'package:diabetica/pages/diabetica.dart';
 import 'package:flutter/material.dart';
 import 'auth.dart';

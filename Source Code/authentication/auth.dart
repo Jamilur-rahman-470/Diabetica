@@ -13,7 +13,7 @@ final GoogleSignIn _googleSignIn = GoogleSignIn();
 class Auth implements  BaseAuth{
   @override
   Future<FirebaseUser> googleSignIn() async{
-    // TODO: implement googleSignIn
+    
     GoogleSignInAccount gUser = await _googleSignIn.signIn();
     GoogleSignInAuthentication gAuth = await gUser.authentication;
 
@@ -25,7 +25,7 @@ class Auth implements  BaseAuth{
 
   @override
   Future<FirebaseUser> userNow() async{
-    // TODO: implement userNow
+    
     final FirebaseUser user = await _auth.currentUser();
     return user;
   }

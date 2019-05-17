@@ -3,7 +3,6 @@ import 'authentication/auth.dart';
 import 'authentication/auth_provider.dart';
 import 'authentication/rootPage.dart';
 import 'pages/loginpage.dart';
-import 'pages/profileSetupPage.dart';
 import 'pages/diabetica.dart';
 
 
@@ -21,7 +20,6 @@ class MainApp extends StatelessWidget {
         home: Root(),
         initialRoute: '/',
         routes: {
-          '/profile': (context) => ProfileSetup(),
           '/login' : (context) => LogInScreen(),
           '/main' : (context) => Diabetica(),
         },
