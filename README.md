@@ -17,7 +17,7 @@ This app is designed for diabetic patients from Bangladesh to get customized die
 - [x] Generating Diet based on time.
 - [ ] Getting Exercise timing.
 - [ ] Getting Food diet for patients for all location.
-- [ ] Updating User info data.
+- [x] Updating User info data.
 - [ ] iOS integration.
 - [ ] Prompting user to update their data monthly.
 
